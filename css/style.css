@@ -1,10 +1,57 @@
 body {
-    background-color: blue;
+    background-color: #EEF9BF;
+
     font-family: 'Roboto', sans-serif;
 }
-.nome{
-    background-color: red;
-}
 .corpo{
-    background-color: purple;
+    background-color: #EEF9BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.nome{
+    width: 540px;
+    margin-top: 40px;
+}
+
+.nome h1{
+
+    font-weight: 700;
+    color: #75B79E;
+    font-size: 56px;
+    line-height: 65.63px;
+    margin-top: 40px;
+}
+.cartas-container{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 872px;
+    margin-top: 50px;
+    justify-content:
+    
+    
+}
+.cartas{
+    background-color: #A7E9AF;
+    width: 117px;
+    height: 146px;
+    border: 1px solid #99CEA8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imagem-cartas{
+    margin-top: 24px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.cartas img{
+    height: 100px;
+    width: 100px;
 }
