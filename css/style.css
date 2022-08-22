@@ -43,22 +43,22 @@ body {
 }
 
 .foto {
+    background-color: red;
     position: absolute;
     backface-visibility: hidden;
-    transition: all .5s;
-    transform-style: preserve-3d;
+    transition: all .8s;
+    
 }
 
 .verso {
     transform: rotateY(180deg);
 }
 
-.virar-verso {
-    transform: rotateY(0deg);
-  }
-
 .virar-frente {
     transform: rotateY(-180deg);
+  }
+.virar-verso {
+    transform: rotateY(0deg);
   }
 
 .escondido {
@@ -68,9 +68,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: transparent;
 }
-
 
 @media (max-width:574px) {
     
